@@ -32,7 +32,7 @@ We cannot guarantee being able to answer questions that may come up during the h
 ## Challenge Walkthrough (est: 30 minutes)
   - The Pro would walk through how they would approach the problem and what steps they would take and why, weighing options with explinations.
   
-## Q/A and Wrap Up (est: 10 - 20 minutes)
+## Q/A and Wrap Up (est: 10 - 20 minutes, or more as needed)
   - Now is your chance to AMA (ask me anything) about the industry, outlook, career paths, and more.
   
 # Requirements:
