@@ -11,8 +11,7 @@ You will be building a small project that takes a users input, queries the Giphy
 
 2 - Each submission will be carefully reviewed by a "Pro" Senior Developer and offered constructive criticism, with the idea that this will help build the confidence and skills needed for entry level developers.  The feedback will not be during the Hackathon, but after the pro has had time to review.
 
-This is a small project intended to be used in a hackathon to develop programmer skills. Right now it's just an empty shell because (A) we haven't revealed what the project is yet and (B) you haven't written it yet! But we can get some information out there for you to look at ahead of time, if you like:
-
+# Quick Notes:
 First of all, this is a React hackathon (bootstrapped using Create React App). We recommend brushing up on your React skills ahead of time if it's not a technology you're already familiar with.
 
 If you want to use an alternative technology stack, that's fine as long as you understand:
@@ -34,17 +33,23 @@ We cannot guarantee being able to answer questions that may come up during the h
   - The Pro would walk through how they would approach the problem and what steps they would take and why, weighing options with explinations.
   
 ## Q/A and Wrap Up (est: 10 - 20 minutes)
+  - Now is your chance to AMA (ask me anything) about the industry, outlook, career paths, and more.
+  
 # Requirements:
 The user should be able to type in any custom search query, like “cute animals”.
+
 The user should then be able to query the Giphy API to get the top 5 results.
+
 Clicking on any image result should open the giphy URL for that image in a new tab.
 
 ## For us to host the result in our showcase:
 The source code must be open and submitted as a github pull request by the submission deadline
+
 The source code must include a licence file designating the code as open source (still attributed to you as an author of course.  More on that below.)
 
 # Instructions for Submission:
 Fork and Clone this repo onto YOUR github account of choice.
+
 Submissions should be in the form of a Pull Request with YOUR NAME in the title (ie: Luke Skywalker - Gif Hack).
 
 # Resources:
