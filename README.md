@@ -8,6 +8,7 @@ Today's Hackathon challenge involves everyone's favorite.  GIFS!
 You will be building a small project that takes a users input, queries the Giphy Database using an API call and rendering the results on a single page app.  This project is purposefully simple for several reasons:
 
 1 - Time is valuable, and we want to respect everyone's time by offering a relatively "short" 3 - 4 hour Hackathon (depending on number of participants).
+
 2 - Each submission will be carefully reviewed by a "Pro" Senior Developer and offered constructive criticism, with the idea that this will help build the confidence and skills needed for entry level developers.  The feedback will not be during the Hackathon, but after the pro has had time to review.
 
 This is a small project intended to be used in a hackathon to develop programmer skills. Right now it's just an empty shell because (A) we haven't revealed what the project is yet and (B) you haven't written it yet! But we can get some information out there for you to look at ahead of time, if you like:
