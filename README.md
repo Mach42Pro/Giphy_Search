@@ -45,6 +45,11 @@ Fork and Clone this repo onto YOUR github account of choice.
 
 Submissions should be in the form of a Pull Request with YOUR NAME in the title (ie: Luke Skywalker - Gif Hack).
 
+# Optional Hosting:
+Hosting isn't required for this Hack, but if you want to, feel free to use whichever hosting service you would like.  Here is a quick 30 second video for using Surge to host.
+
+https://www.youtube.com/watch?v=W-Kc_zjfeH0
+
 # Resources:
 Giphy has a publicly available REST API with documentation available online.  In particular the rest endpoint at https://developers.giphy.com/docs/api/endpoint/#search should be useful.
 You can use our giphy API key (“McEqCYL7IllxFGsn8dCGCpiLlRktypOB”) or sign up for your own here:
