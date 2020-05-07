@@ -55,7 +55,7 @@ function App() {
         </form>
         <Route
           path="/results"
-          render={(props) => <SearchResults data={gifs} />}
+          render={(props) => <SearchResults data={gifs.data} />}
         />
       </div>
     </BrowserRouter>
