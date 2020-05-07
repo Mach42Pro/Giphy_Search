@@ -50,6 +50,13 @@ Hosting isn't required for this Hack, but if you want to, feel free to use which
 
 https://www.youtube.com/watch?v=W-Kc_zjfeH0
 
+# Surprise BONUS!
+user should be able to click a "next" button to display the next 5 gifs that replace the current 5 gifs.
+
+# Double BONUS!
+add a "previous" button that goes back to the previous 5 gifs!.
+
+
 # Resources:
 Giphy has a publicly available REST API with documentation available online.  In particular the rest endpoint at https://developers.giphy.com/docs/api/endpoint/#search should be useful.
 You can use our giphy API key (“McEqCYL7IllxFGsn8dCGCpiLlRktypOB”) or sign up for your own here:
