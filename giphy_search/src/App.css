@@ -1,0 +1,19 @@
+.search-bar {
+    margin: 0 auto;
+    width:1000px;
+    display: block;
+}
+
+input {
+    width: 40%;
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.search-results-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
