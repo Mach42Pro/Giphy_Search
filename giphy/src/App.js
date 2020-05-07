@@ -1,17 +1,42 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Search from "./components/search"
 
 
-function App() {
-  return (
-    <div className="App">
-<h1>hello world</h1>
 
-    </div>
-    
-  );
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state ={
+      gifs: {}
+    }
+  }
+   
+  fetchGifs(searchText) {
+    fetch(`http://api.giphy.com/v1/gifs/random?&tag=${searchText}&api_key=${process.env.REACT_APP_GIPHY_API_KEY}`)
+    .then(response => response.json())
+    .catch(error => console.error('Error:', error))
+    .then(json => this.setState({
+      gifs: json
+    }))
 
+}
+  componentDidMount() {
+    this.fetchGifs()
+
+  }
+
+
+ 
+  render() {
+    return(
+      <>
+      <div>Giphy Search App</div>
+      <Search />
+      </>
+    )
+  }
 }
 
 export default App;
