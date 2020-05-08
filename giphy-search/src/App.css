@@ -1,0 +1,44 @@
+
+
+.input-button {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    height: 60px;
+    width: 125px;
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    outline: none;
+}
+
+input {
+  font-size: 32px;
+  font-family: 'Merriweather', serif;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gif {
+  width: 150px;
+  height: 150px;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
