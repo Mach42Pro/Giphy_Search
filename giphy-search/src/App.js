@@ -4,12 +4,13 @@ import './App.css';
 const axios = require('axios');
 
 function App() {
-   const key = 'McEqCYL7IllxFGsn8dCGCpiLlRktypOB';
+   const key = process.env.API_KEY;
    const [searchQuery, setSearchQuery] = useState('');
    const [resultsArray, setResultsArray] = useState();
    const [errorFlag, setErrorFlag] = useState();
    const [currentOffset, setCurrentOffset] = useState();
    const [showFlag, setShowFlag] = useState(false);
+   const [clickedFlag, setClickedFlag] = useState(false);
 
   useEffect(() => {
     setErrorFlag(false);
@@ -22,7 +23,7 @@ function App() {
 
     fetch();
           
-  }, [currentOffset])
+  }, [currentOffset, clickedFlag])
 
   const fetchGifs = (e, str = false) => {
       e.preventDefault();
@@ -41,6 +42,7 @@ function App() {
               setCurrentOffset(0);
               
           }
+          setClickedFlag(!clickedFlag);
       }
     }
 
@@ -63,7 +65,7 @@ function App() {
             </form>
             {errorFlag && <p>Search parameters cannot be empty.</p>}
          </div>
-         {resultsArray && showFlag && <div className='gif-container'>
+         {resultsArray && resultsArray.length > 0 && showFlag && <div className='gif-container'>
             <button onClick={(e) => fetchGifs(e, 'previous')}>Previous 5</button>
                {resultsArray.map((gif) => {
                   return (
