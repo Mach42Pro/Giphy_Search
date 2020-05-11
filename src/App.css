@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App input {
+  font-size: calc(10px + 2vmin);
+  margin: 50px;
+}
+
+/* A pretty good tutorial on flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.giphy-results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.giphy-result {
+  padding: 4px;
+}
+
+.paginator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginator-item {
+  padding: 10px;
+}
+
+.paginator-item button {
+  /* stolen (lovingly!) from https://stackoverflow.com/a/1368286/511612 */
+  background: none!important;
+  border: none;
+  /* padding: 0!important; */
+  /*optional*/
+  font-family: arial, sans-serif;
+  font-size: calc(10px + 2vmin);
+  /*input has OS specific font-family*/
+  color: coral;
+  text-decoration: underline;
+  cursor: pointer;
+}

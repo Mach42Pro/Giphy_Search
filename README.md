@@ -1,68 +1,68 @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Mach 42 hackathon project
+## Available Scripts
 
+In the project directory, you can run:
 
-# Giphy Image Search
-Today's Hackathon challenge involves everyone's favorite.  GIFS!
+### `npm start`
 
-You will be building a small project that takes a users input, queries the Giphy Database using an API call and rendering the results on a single page app.  This project is purposefully simple for several reasons:
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1 - Time is valuable, and we want to respect everyone's time by offering a relatively "short" 3 - 4 hour Hackathon (depending on number of participants).
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-2 - Each submission will be carefully reviewed by a "Pro" Senior Developer and offered constructive criticism, with the idea that this will help build the confidence and skills needed for entry level developers.  The feedback will not be during the Hackathon, but after the pro has had time to review.
+### `npm test`
 
-# Schedule:
-## Start Section (est: 45 min)
-  - Introduction of Mach 42
-  - Introduce todays challenge
-  - Go over the Rules
-  
-## Challenge (est: 2 hours)
-  - Finish with a 10 minute wrap up / Break at the end
-  
-## Challenge Walkthrough (est: 30 minutes)
-  - The Pro would walk through how they would approach the problem and what steps they would take and why, weighing options with explinations.
-  
-## Q/A and Wrap Up (est: 10 - 20 minutes, or more as needed)
-  - Now is your chance to AMA (ask me anything) about the industry, outlook, career paths, and more.
-  
-# Requirements:
-The user should be able to type in any custom search query, like “cute animals”.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The user should then be able to query the Giphy API to get the top 5 results.
+### `npm run build`
 
-Clicking on any image result should open the giphy URL for that image in a new tab.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## For us to host the result in our showcase:
-The source code must be open and submitted as a github pull request by the submission deadline
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-The source code must include a licence file designating the code as open source (still attributed to you as an author of course.  More on that below.)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-https://choosealicense.com/
+### `npm run eject`
 
-# Instructions for Submission:
-Fork and Clone this repo onto YOUR github account of choice.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Submissions should be in the form of a Pull Request with YOUR NAME in the title (ie: Luke Skywalker - Gif Hack).
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-# Optional Hosting:
-Hosting isn't required for this Hack, but if you want to, feel free to use whichever hosting service you would like.  Here is a quick 30 second video for using Surge to host.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-https://www.youtube.com/watch?v=W-Kc_zjfeH0
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-# Surprise BONUS!
-user should be able to click a "next" button to display the next 5 gifs that replace the current 5 gifs.
+## Learn More
 
-# Double BONUS!
-add a "previous" button that goes back to the previous 5 gifs!.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-# Resources:
-Giphy has a publicly available REST API with documentation available online.  In particular the rest endpoint at https://developers.giphy.com/docs/api/endpoint/#search should be useful.
-You can use our giphy API key (“McEqCYL7IllxFGsn8dCGCpiLlRktypOB”) or sign up for your own here:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-https://developers.giphy.com/docs/api#quick-start-guide
+### Code Splitting
 
-Rather than call the REST endpoint directly, we recommend using a wrapper (also publicly provided by giphy) called “GiphyFetch” -- see here for details: https://developers.giphy.com/docs/sdk#verification
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-If you have questions throughout please don’t hesitate to hit us up on the discord server.
+### Analyzing the Bundle Size
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
